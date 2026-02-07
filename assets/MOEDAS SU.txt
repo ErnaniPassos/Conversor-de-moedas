@@ -1,0 +1,12 @@
+| Moeda                  | Símbolo | Sigla   | País / Região              |
+| ---------------------- | ------- | ------- | -------------------------- |
+| **Dólar Americano**    | $       | **USD** | Estados Unidos             |
+| **Euro**               | €       | **EUR** | União Europeia (20 países) |
+| **Iene Japonês**       | ¥       | **JPY** | Japão                      |
+| **Libra Esterlina**    | £       | **GBP** | Reino Unido                |
+| **Yuan Renminbi**      | ¥       | **CNY** | China                      |
+| **Dólar Canadense**    | $       | **CAD** | Canadá                     |
+| **Dólar Australiano**  | $       | **AUD** | Austrália                  |
+| **Franco Suíço**       | CHF     | **CHF** | Suíça                      |
+| **Dólar de Hong Kong** | $       | **HKD** | Hong Kong                  |
+| **Dólar de Singapura** | $       | **SGD** | Singapura                  |
