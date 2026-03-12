@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="./scripts.js"defer></script>
+    <script src="./scripts.js" defer></script>
     <title>EFP - Converter Money</title>
 </head>
+
 <body>
     <img src="./assets/logo.gif" alt="logo-convertmoney" id="logoPrincipal">
 
     <main>
         <h1>Conversor de Moedas</h1>
-        
+
         <label><b>De:</b>
             <select class="currencyOriginSelect">
                 <option>Selecione a Moeda</option>
-                <option value="real">R$ - Real</option>
-                <option value="dolar">$ - Dólar Americano</option>
-                <option value="euro">€ - Euro</option>                
-                <option value="libra">£ - Libra Esterlina</option>
-                <option value="iene">¥ - Iene</option>
-                <option value="franco">CHF - Franco Suiço</option>            
+                <option value="BRL">R$ - Real</option>
+                <option value="USD">$ - Dólar Americano</option>
+                <option value="EUR">€ - Euro</option>
+                <option value="GBP">£ - Libra Esterlina</option>
+                <option value="JPY">¥ - Iene</option>
+                <option value="CHF">CHF - Franco Suíço</option>
             </select>
         </label>
 
         <label><b>Para:</b>
             <select class="currencySelect">
                 <option>Selecione a Moeda</option>
-                <option value="real">R$ - Real</option>
-                <option value="dolar">$ - Dólar Americano</option>
-                <option value="euro">€ - Euro</option>                
-                <option value="libra">£ - Libra Esterlina</option>
-                <option value="iene">¥ - Iene</option>
-                <option value="franco">CHF - Franco Suiço</option>            
-                
+                <option value="BRL">R$ - Real</option>
+                <option value="USD">$ - Dólar Americano</option>
+                <option value="EUR">€ - Euro</option>
+                <option value="GBP">£ - Libra Esterlina</option>
+                <option value="JPY">¥ - Iene</option>
+                <option value="CHF">CHF - Franco Suíço</option>
+
             </select>
         </label>
 
-        <label >
+        <label>
             Valor:
             <input class="inputCurrency" placeholder="Digite o valor aqui">
         </label>
@@ -50,8 +53,8 @@
 
         <section>
             <div class="currencyBox">
-                <img src="./assets/real.png" alt="logoMoedaBrasileira">
-                <p class="currency">Real</p>
+                <img class="currencyImageOrigin" src="./assets/real.png" alt="logoMoedaBrasileira">
+                <p class="currency" id="currencyNameOrigin">Real</p>
                 <p class="currencyValueToConverter">R$ 0,00</p>
             </div>
 
@@ -63,11 +66,12 @@
                 <P class="currencyValue">US$ 0,00</P>
             </div>
 
-            
+
         </section>
 
     </main>
 
-    
+
 </body>
+
 </html>
